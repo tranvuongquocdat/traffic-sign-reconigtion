@@ -1,0 +1,5 @@
+python detect.py --weights runs/train/yolov712/weights/last.pt --conf 0.5 --img-size 640 --source inference/images/image1.jpg
+
+python detect.py --weights runs/train/yolov712/weights/last.pt --conf 0.25 --img-size 64 --source data/images
+
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 64 --source inference/images/image1.jpg

@@ -1,0 +1,4 @@
+python train.py --workers 4 --device 0 --batch-size 16 --data data/coco.yaml --epochs 16 --img 64 64 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7
+
+
+python train.py --workers 1 --device 0 --batch-size 32 --data data/coco.yaml --epochs 100 --img 64 64 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7
